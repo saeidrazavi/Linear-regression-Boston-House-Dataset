@@ -71,4 +71,15 @@ $$
 
  below is the result of predicting output($Y$) based on weights($W$) and inputs($X$) using gradient descent method.
  
+![6](https://user-images.githubusercontent.com/67091916/219366332-248beb7c-267c-4082-bc4c-722534900d59.png)
+
+![7](https://user-images.githubusercontent.com/67091916/219366338-a1ff8022-1406-4607-beaa-24c545d0435a.png)
+![8](https://user-images.githubusercontent.com/67091916/219366321-64fb3fa6-30e5-4405-a270-422bacd7b23a.png)
+
+* we want our model to works well not only with training or test data, but also with the data it'll receive in the future. In summary, to achieve this, regularization shrinks the weights toward zero to discourage complex models
+
+* **you can see the effect of regularization above. as lambda goes up, eror rate decreases approximatly exponentialy**
+
+## Add square and power of three of each feature to data set and use  gradient descent form of linear regression
+
 
