@@ -29,3 +29,8 @@ $$
 $$
 \boxed{W^{*}=(\phi^T\phi-\lambda I)^{-1}\phi^{T}Y}
 $$
+
+ below is the result of predicting output($Y$) based on weights($W$) and inputs($X$).
+ 
+![1](https://user-images.githubusercontent.com/67091916/219363100-3bde6e71-7602-4735-949e-c56f2bd8a609.png)
+
