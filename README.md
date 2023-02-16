@@ -33,4 +33,13 @@ $$
  below is the result of predicting output($Y$) based on weights($W$) and inputs($X$).
  
 ![1](https://user-images.githubusercontent.com/67091916/219363100-3bde6e71-7602-4735-949e-c56f2bd8a609.png)
+![3](https://user-images.githubusercontent.com/67091916/219363776-8a351fef-625f-48d6-8b7f-936977ba383e.png)
+![2](https://user-images.githubusercontent.com/67091916/219363784-b18a96fc-4002-45bf-bba7-4965f8c20f0a.png)
+
+* we want our model  to works well not only with training or test data, but also with the data it'll receive in the future. In summary, to achieve this, regularization shrinks the weights toward zero to discourage complex models
+
+* **in the above case, becuase our model didn't see enough data, using regularization, avoid our model from training better. that is why eror becomes greater as lambda goes up**. 
+## Add square and power of three of each feature to data set and use closed form linear regression
+
+
 
