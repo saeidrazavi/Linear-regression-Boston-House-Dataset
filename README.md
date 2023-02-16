@@ -2,7 +2,7 @@
 
 ## What is linear regression?
 Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables. The case of one explanatory variable is called simple linear regression; for more than one, the process is called multiple linear regression. We have two different approach for find wights of Linear regression. first one is closed form of Linear regression which we can find weights of our model in one step. 
-second is to use gradiant descent to obtain local optimal answer in specific steps. 
+second is to use gradient descent to obtain local optimal answer in specific steps. 
 
 ## Closed form 
 in Linear regression problems, our goal is to minimize following loss function : 
@@ -38,7 +38,7 @@ $$
 
 * we want our model  to works well not only with training or test data, but also with the data it'll receive in the future. In summary, to achieve this, regularization shrinks the weights toward zero to discourage complex models
 
-* **in the above case, becuase our model didn't see enough data, using regularization, avoid our model from training better. that is why eror becomes greater as lambda goes up**. 
+* **in the above case, because our model didn't see enough data, using regularization, avoid our model from training better. that is why error becomes greater as lambda goes up**. 
 ## Add square and power of three of each feature to data set and use closed form linear regression
 
 
@@ -78,7 +78,7 @@ $$
 
 * we want our model to works well not only with training or test data, but also with the data it'll receive in the future. In summary, to achieve this, regularization shrinks the weights toward zero to discourage complex models
 
-* **you can see the effect of regularization above. as lambda goes up, eror rate decreases approximatly exponentialy**
+* **you can see the effect of regularization above. as lambda goes up, error rate decreases approximately exponentially**
 
 ## Add square and power of three of each feature to data set and use  gradient descent form of linear regression
 
