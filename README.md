@@ -82,4 +82,5 @@ $$
 
 ## Add square and power of three of each feature to data set and use  gradient descent form of linear regression
 
-
+Polynomial feature transformation, extends the linear model by adding extra predictors, obtained by raising each of the original predictors to a power. For example, a cubic regression uses three variables, $X$, $X^{2}$, and $X^{3}$, as predictors. This approach provides a simple way to provide a non-linear fit to data.
+as we can see above, error of cubic regression is less than linear regression .
