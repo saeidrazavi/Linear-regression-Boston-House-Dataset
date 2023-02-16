@@ -1,4 +1,4 @@
-# Linear regression Boston House Dataset
+# Linear regression for Boston House Dataset
 
 ## What is linear regression?
 Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables. The case of one explanatory variable is called simple linear regression; for more than one, the process is called multiple linear regression. We have two different approach for find wights of Linear regression. first one is closed form of Linear regression which we can find weights of our model in one step. 
